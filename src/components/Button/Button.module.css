@@ -1,0 +1,28 @@
+.button {
+    width: 100%;
+    padding: 16px 32px;
+    border: 1px solid var(--accent-color);
+    border-radius: 25px;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    font-size: inherit;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    transition: .3s all ease;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--accent-color);
+}
+
+.button:disabled {
+    background-color:  var(--disabled-btn-color);
+    border: 1px solid var(--disabled-btn-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--text-color);
+    cursor: not-allowed;
+  }

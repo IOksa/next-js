@@ -1,0 +1,26 @@
+[
+    {
+        "id": "01",
+        "icon": "/icons/maternity.png",
+        "title": "Репродуктологія",
+        "description": "Репродуктологія - A small river named Duden flows by their place and supplies it with the necessary regelialia."
+    },
+    {
+        "id": "02",
+        "icon": "/icons/gynecology.png",
+        "title": "Акушерство та гінекологія",
+        "description": "Репродуктологія - A small river named Duden flows by their place and supplies it with the necessary regelialia."
+    },
+    {
+        "id": "03",
+        "icon":  "/icons/reproductive-system.png",
+        "title": "Естетична гінекологія",
+        "description": "Естетична гінекологія - A small river named Duden flows by their place and supplies it with the necessary regelialia."
+    },
+    {
+        "id": "04",
+        "icon":  "/icons/stethoscope.png",
+        "title": "УЗД діагностика",
+        "description": "УЗД діагностика - A small river named Duden flows by their place and supplies it with the necessary regelialia."
+    }
+]
