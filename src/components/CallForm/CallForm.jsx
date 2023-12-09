@@ -7,11 +7,11 @@ import * as API from "../../services/api";
 import useLocalStorage from "../../hooks/useLocalStorage";
 import css from "./CallForm.module.css";
 
-const LS_KEY='call_form';
+const LS_KEY='test_call_form';
 const LS_CHECKBOX_KEY='checkbox';
 
 const CallForm = () => {
-    const initialValues = {name: "", surname: "", phone: "", service: "", comment: "", policy: ""};
+    const initialValues = {name: "", surname: "", phone: "", service: "", comment: "", policy: false};
 
     const [data, setData] = useLocalStorage(LS_KEY, initialValues);
     // const [policy, setPolicy]=useLocalStorage(LS_CHECKBOX_KEY, false);
