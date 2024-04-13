@@ -21,6 +21,7 @@ const CallForm = () => {
     const {name, surname, phone, service, comment, policy}=data;
 
 
+    console.log("process.env.TELEGRAM_URI_API=", process.env.TELEGRAM_URI_API);
     // const handleChangeCheckbox = (evt) => {
     //     const { checked } = evt.target;   
     //     setPolicy(checked); 
